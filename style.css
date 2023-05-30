@@ -7,7 +7,7 @@
 
 main{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
 }
 
@@ -22,7 +22,7 @@ main{
 }
 .column-1{
     background:linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%)); 
-    width: 250px;
+    width: 50%;
     height: 100%;
     border-radius: 20px;
     display: flex;
@@ -66,13 +66,14 @@ main{
 
 /*    column2*/
 .column-2{
-    width: 250px;
+    width: 50%;
     height: 100%;
     padding-left: 30px;
     padding-right: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 
 /*.row2{
@@ -133,4 +134,36 @@ main{
     text-decoration: none;
     color: white;
     margin: auto;
+}
+.row3-2:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width:375px) {
+    .container{
+        height: 700px;
+        width: 100%;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        text-shadow: none;
+        justify-content: flex-start;
+    }
+    .column-1{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        width: 100%;
+        
+    }
+    .column-2{
+        width: 90%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+        .row2a,.row2b,.row2c,.row2d{
+            margin-bottom: 10px;
+        }
+        .row2a{
+            margin-top: 10px;
+        }
 }
