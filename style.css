@@ -13,25 +13,26 @@ main{
 
 .container
 {
-    width: 400px;
+    width: 500px;
     height: 300px;
     display: flex;
     flex-direction: row;
     margin: auto;
+    box-shadow: 4px 4px 5px hsl(241, 100%, 89%);
 }
 .column-1{
     background:linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%)); 
-    width: 200px;
+    width: 250px;
     height: 100%;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: space-between;
-    padding: 40px;
 }
 .row1-1{
     color:hsl(241, 100%, 89%);
+    margin-top: 20px;
 }
 .row1-2{
     border-radius: 50%;
@@ -55,6 +56,9 @@ main{
 }
 .row1-4{
     color: hsl(241, 100%, 89%);
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .row1-4 p{
     font-size: 14px;
@@ -62,15 +66,71 @@ main{
 
 /*    column2*/
 .column-2{
-    width: 200px;
+    width: 250px;
     height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.row2{
+/*.row2{
+    height: 30px;
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
-    
+    align-items: center;
+    justify-content: space-between;   
+}  */
+.row2a , .row2b ,.row2c ,.row2d {
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.row2a{
+    background:linear-gradient( hsla(0, 100%, 67%, 0.1), hsla(0, 100%, 67%, 0.2));
+    color: hsla(0, 100%, 67%);
+}
+.row2b{
+    background: linear-gradient(hsla(39, 100%, 56%,0.1),hsla(39, 100%, 56%,0.2));
+    color: hsl(39, 100%, 56%) ;
+}
+.row2c{
+    background: linear-gradient(hsla(166, 100%, 37%,0.1),hsla(166, 100%, 37%,0.2));
+    color:hsl(166, 100%, 37%);
+}
+.row2d{
+    background: linear-gradient(hsla(234, 85%, 45%,0.1),hsla(234, 85%, 45%,0.2));
+    color:hsl(234, 85%, 45%);
+}  
+
+.score {
+    color: hsl(224, 30%, 27%);
+}
+.finalScore{
+    color: hsl(241, 100%, 89%);
+}
+.separate{ 
+    width: 30px;
+    height: 10px;
+}
+.row3-2{
+    height: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 30px;
+    display: flex;
+}
+.row3-2 a{
+    text-decoration: none;
+    color: white;
+    margin: auto;
 }
