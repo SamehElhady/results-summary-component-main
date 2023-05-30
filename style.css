@@ -18,9 +18,10 @@ main{
     display: flex;
     flex-direction: row;
     margin: auto;
+    background: black;
 }
 .column-1{
-    background:linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    /*background:linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%)); */
     width: 200px;
     height: 100%;
     border-radius: 20px;
@@ -58,4 +59,19 @@ main{
 }
 .row1-4 p{
     font-size: 14px;
+}
+
+/*    column2*/
+.column-2{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    background: red;
 }
