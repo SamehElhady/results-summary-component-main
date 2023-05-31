@@ -137,6 +137,8 @@ main{
 }
 .row3-2:hover{
     cursor: pointer;
+    background:linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%)) ;
+    
 }
 
 @media only screen and (max-width:400px) {
